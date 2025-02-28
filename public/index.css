@@ -1,6 +1,8 @@
 #root {
   padding: 30px;
   font-family: "Open Sans", sans-serif;
+  max-width: 1000px;
+  margin: auto auto;
 }
 
 nav > a {
@@ -28,9 +30,6 @@ h2 {
   color: #000000;
   margin: 0;
   margin-bottom: 18px;
-}
-
-section {
 }
 
 hr {
