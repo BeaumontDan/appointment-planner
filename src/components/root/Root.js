@@ -8,6 +8,7 @@ export const ROUTES = {
 function Root() {
     return (
         <>
+
             <nav>
                 <NavLink to={ROUTES.CONTACTS} >
                 Contacts
@@ -17,6 +18,7 @@ function Root() {
                 </NavLink>
             </nav>
             <Outlet/>
+
       </>
     );
 

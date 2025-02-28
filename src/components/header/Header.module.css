@@ -1,0 +1,8 @@
+.logo {
+    height: 100px;
+    width: auto;
+    background-image: url("../../../public/planner-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
