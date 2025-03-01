@@ -14,7 +14,7 @@ body {
   padding: 30px;
   font-family: "Open Sans", sans-serif;
   max-width: 1000px;
-  min-height: 800px;
+  height: 80vh;
   flex-grow: 1;
   background-color: #ffffff;
   border-radius: 20px;
@@ -61,7 +61,10 @@ hr {
 }
 
 input[type="submit"] {
-  background: #853BFB;
+  background-image: linear-gradient(#40C3F9, #853BFB);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 4px;
   color: #ffffff;
   font-weight: bold;
@@ -80,7 +83,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: #40C3F9;
+  background-image: linear-gradient(#853BFB, #40C3F9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 input,
